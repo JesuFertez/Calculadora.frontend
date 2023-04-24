@@ -5,9 +5,7 @@ function agregarNumero(numero) {
 }
 
 function agregarDecimal() {
-  if (!resultado.value.includes(".")) {
-    resultado.value += ".";
-  }
+  resultado.value += "."; 
 }
 
 function operacion(operador) {
@@ -19,9 +17,18 @@ function calcular() {
     resultado.value = eval(resultado.value);
   } catch (error) {
     resultado.value = "Error";
+    
   }
 }
 
-function borrar() {
+function borrarTodo() {
   resultado.value = "";
+}
+
+function borrar() {
+  let valorActual = resultado.value;
+  if (valorActual.length > 0) {
+    valorActual = valorActual.slice(0, -1);
+    resultado.value = valorActual;
+  }
 }
