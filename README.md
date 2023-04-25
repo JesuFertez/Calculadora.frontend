@@ -18,6 +18,8 @@ JavaScript
 Jquery
 Bootstrap
 
+PREVISUALIZACION PROYECTO TU CALCULADORA:
+
 ![PREVISUALIZACIÓN PROYECTO TU CALCULADORA](https://github.com/JesuFertez/Calculadora.frontend/blob/main/screenshots/tucalculadora.png)
 
 AUTORES:
