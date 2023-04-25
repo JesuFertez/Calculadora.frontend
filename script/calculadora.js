@@ -14,8 +14,6 @@ function operacion(operador) {
     let valorActual = resultado.value.slice(-1);
     if (valorActual !== "+" && valorActual !== "-" && valorActual !== "*" &&  valorActual!== "/") {
       resultado.value += operador;
-    
-  resultado.value += operador;
 }
 }
 
