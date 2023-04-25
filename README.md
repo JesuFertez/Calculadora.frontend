@@ -18,7 +18,7 @@ JavaScript
 Jquery
 Bootstrap
 
-! [PREVISUALIZACIÓN PROYECTO TU CALCUlADORA]
+! [PREVISUALIZACIÓN PROYECTO TU CALCULADORA]
 (screenshots/tucalculadora.png)
 
 AUTORES:
