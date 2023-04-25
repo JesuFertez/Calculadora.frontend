@@ -18,7 +18,7 @@ Si tienes GitHub Desktop y/o GitHub puedes clonar el código a tu ordenador loca
 
 ## PREVISUALIZACION :camera:
 
-![PREVISUALIZACIÓN PROYECTO TU CALCULADORA](https://github.com/JesuFertez/Calculadora.frontend/blob/main/screenshots/tucalculadora.png)
+![PREVISUALIZACIÓN PROYECTO TU CALCULADORA](screenshots/tucalculadora_fondo.png)
 
 ## AUTORES :busts_in_silhouette:
 
