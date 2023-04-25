@@ -1,14 +1,14 @@
-# PROYECTO TU CALCULADORA :information_source:
+# PROYECTO TU CALCULADORA
 
 Creación colaborativa de Calculadora Frontend para representar lo aprendido en el Módulo 2 "Fundamentos de Desarrollo Front-End" del BootCamp "Desarrollo de Aplicaciones Full Stack Java Trainee v2.0" impartido por FUDESCO en el marco de la iniciativa público - privada Talento Digital para Chile, impulsada por Fundación Chile y Fundación Kodea.
 
 La Caculadora Frontend permite realizar operaciones matemáticas básicas - suma, resta, multiplicación, división - con números enteros y/o decimales. Dentro de sus funcionalidades, cuenta con un botón para resetear el display, y con un botón para borrar la última cifra de mismo.
 
-## INSTRUCCIONES :clipboard:
+## INSTRUCCIONES
 
 Si tienes GitHub Desktop y/o GitHub puedes clonar el código a tu ordenador local desde la terminal, utilizando el comando git clone <https://github.com/JesuFertez/Calculadora.frontend.git> o hacer click en "Download Zip" para descargar la carpeta en tu ordenador local. Una vez descargada la carpeta, debes descomprimirla, y abrir con tu navegador el archivo "calculadora.html", desplegándose así la "Calculadora Frontend" para su utilización.
 
-## CONSTRUIDO CON :building_construction:
+## CONSTRUIDO CON
 
 - HTML
 - CSS
@@ -16,7 +16,7 @@ Si tienes GitHub Desktop y/o GitHub puedes clonar el código a tu ordenador loca
 - Jquery
 - Bootstrap
 
-## PREVISUALIZACION :camera:
+## PREVISUALIZACION
 
 ![PREVISUALIZACIÓN PROYECTO TU CALCULADORA](screenshots/tucalculadora_fondo.png)
 
