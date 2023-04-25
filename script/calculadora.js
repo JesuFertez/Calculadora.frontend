@@ -5,24 +5,30 @@ function agregarNumero(numero) {
 }
 
 function agregarDecimal() {
-  resultado.value += "."; 
+  // Validación de sólo un decimal
+  let valorDecimal = resultado.value.slice(-1);
+  if (valorDecimal !== ".") {
+    resultado.value += ".";
+  }
 }
 
 function operacion(operador) {
-
-    //validacion de solo un operador aritmetico//
+    //validacion de sólo un operador aritmetico//
     let valorActual = resultado.value.slice(-1);
     if (valorActual !== "+" && valorActual !== "-" && valorActual !== "*" &&  valorActual!== "/") {
       resultado.value += operador;
 }
 }
 
+
 function calcular() {
   try {
     resultado.value = eval(resultado.value);
   } catch (error) {
-    resultado.value = "Error";
-    
+    if (resultado.value === "error" || resultado.value === null || resultado.value === "undefined") { 
+      resultado.value = "Error";
+      borrarTodo();
+    }
   }
 }
 
