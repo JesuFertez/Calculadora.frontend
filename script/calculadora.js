@@ -9,7 +9,12 @@ function agregarDecimal() {
 }
 
 function operacion(operador) {
-  resultado.value += operador;
+
+    //validacion de solo un operador aritmetico//
+    let valorActual = resultado.value.slice(-1);
+    if (valorActual !== "+" && valorActual !== "-" && valorActual !== "*" &&  valorActual!== "/") {
+      resultado.value += operador;
+}
 }
 
 function calcular() {
